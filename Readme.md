@@ -9,15 +9,20 @@
 
 - Get the ZAPI access key / secret: Go to your `JIRA project` --> Click on `Zephyr Squad` -->  `API Keys`
 
-    ![alt text](image-2.png)
+
+
+    ![image-2](https://github.com/sramgn/jira_zephyr_squad_zapi_nodejs_with_jwt_generator_and_axios/assets/7971131/59489f61-8e1b-4514-b91a-57aa8ef15626)
 
 - Get the JIRA `account ID` by clicking on your profile. The value after `/people/` is your `account ID`. E.g. `https://acme.looney-tunes.net/jira/people/beep-beep-roadrunner-id`
 
-    ![alt text](image-3.png)
+
+
+    ![image-3](https://github.com/sramgn/jira_zephyr_squad_zapi_nodejs_with_jwt_generator_and_axios/assets/7971131/c62bbdb5-0683-4df8-b527-a16cbd28f5bb)
 
 - Make sure you have an `active / unreleased fix version` in your project (E.g. below)
 
-    ![alt text](image-5.png)
+
+    ![image-5](https://github.com/sramgn/jira_zephyr_squad_zapi_nodejs_with_jwt_generator_and_axios/assets/7971131/3ee109f5-5652-4eb8-935b-6f6442310743)
 
 - Get the `project ID` and `version ID`
     - `Project ID:` "Project --> Project Settings --> Details --> See the URL and grab the value after `pid`". E.g. `https://acme.looney-tunes.net/secure/project/EditProject!default.jspa?pid=99999`
@@ -45,5 +50,5 @@
 
 ## License
 
- - This project is released / licensed under the MIT license.
+ - [MIT License](https://github.com/sramgn/jira_zephyr_squad_zapi_nodejs_with_jwt_generator_and_axios/tree/main?tab=MIT-1-ov-file)
  
