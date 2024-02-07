@@ -1,0 +1,75 @@
+require("dotenv").config();
+
+/**
+ * @purpose Load the project properties under the env file to be used later
+ * @author Ram Sivasubramaniam
+ */
+
+// ZAPI Properties
+// ---------------
+const { BASE_URL, ACCESS_KEY, SECRET_KEY } = process.env;
+
+// JIRA Properties
+// ---------------
+const { ACCOUNT_ID, JIRA_PROJECT_NAME, JIRA_PROJECT_ID } = process.env;
+
+// Zephyr Properties
+// -----------------
+const { RELEASE_VERSION_NAME, RELEASE_VERSION_ID } = process.env;
+
+// ZAPI Operations
+// ---------------
+// Get Cycles
+const {
+  GET_CYCLES_METHOD,
+  GET_CYCLES_OPERATION_URI,
+  GET_CYCLES_QUERY_STRING,
+  GET_CYCLES_CONTENT_TYPE,
+} = process.env;
+
+// Create A Folder
+const {
+  CYCLE_NAME,
+  CYCLE_ID,
+  CREATE_FOLDER_METHOD,
+  CREATE_FOLDER_OPERATION_URI,
+  CREATE_FOLDER_QUERY_STRING,
+  CREATE_FOLDER_CONTENT_TYPE,
+} = process.env;
+
+// Add Test To A Folder
+const {
+  FOLDER_NAME,
+  FOLDER_ID,
+  ADD_TEST_TO_FOLDER_METHOD,
+  ADD_TEST_TO_FOLDER_OPERATION_URI,
+  ADD_TEST_TO_FOLDER_QUERY_STRING,
+  ADD_TEST_TO_FOLDER_CONTENT_TYPE,
+} = process.env;
+
+module.exports = {
+  BASE_URL,
+  ACCESS_KEY,
+  SECRET_KEY,
+  ACCOUNT_ID,
+  JIRA_PROJECT_NAME,
+  JIRA_PROJECT_ID,
+  RELEASE_VERSION_NAME,
+  RELEASE_VERSION_ID,
+  GET_CYCLES_METHOD,
+  GET_CYCLES_OPERATION_URI,
+  GET_CYCLES_QUERY_STRING,
+  GET_CYCLES_CONTENT_TYPE,
+  CYCLE_NAME,
+  CYCLE_ID,
+  CREATE_FOLDER_METHOD,
+  CREATE_FOLDER_OPERATION_URI,
+  CREATE_FOLDER_QUERY_STRING,
+  CREATE_FOLDER_CONTENT_TYPE,
+  FOLDER_NAME,
+  FOLDER_ID,
+  ADD_TEST_TO_FOLDER_METHOD,
+  ADD_TEST_TO_FOLDER_OPERATION_URI,
+  ADD_TEST_TO_FOLDER_QUERY_STRING,
+  ADD_TEST_TO_FOLDER_CONTENT_TYPE,
+};

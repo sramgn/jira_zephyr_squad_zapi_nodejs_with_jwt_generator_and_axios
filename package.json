@@ -1,0 +1,19 @@
+{
+  "name": "jira_zephyr_squad_zapi_nodejs_with_jwt_generator_and_axios",
+  "version": "1.0.0",
+  "description": "JIRA Zephyr Squad ZAPI Node.js with JWT generator and Axios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: No Test Specified\" && exit 1"
+  },
+  "author": "Ram Sivasubramaniam",
+  "license": "MIT",
+  "homepage": "https://github.com/sramgn/jira_zephyr_squad_zapi_nodejs_with_jwt_generator_and_axios#readme",
+  "dependencies": {
+    "atlassian-jwt": "^2.0.3",
+    "jshashes": "^1.0.8",
+    "zapi_nodejs": "^1.0.8",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1"
+  }
+}
